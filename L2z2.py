@@ -1,0 +1,5 @@
+A = int(input("A="))
+B = int(input("B="))
+C = int(input("C="))
+D = int(input("D="))
+print(((A % 2 == 0) and (B % 2 == 0) and not(C % 2 == 0) and not(D % 2 == 0)) or ((A % 2 == 0) and not(B % 2 == 0) and (C % 2 == 0) and not(D % 2 == 0)) or ((A % 2 == 0) and not(B % 2 == 0) and not(C % 2 == 0) and (D % 2 == 0)) or(not(A % 2 == 0) and (B % 2 == 0) and (C % 2 == 0) and not(D % 2 == 0)) or(not(A % 2 == 0) and (B % 2 == 0) and not(C % 2 == 0) and (D % 2 == 0)) or(not(A % 2 == 0) and not(B % 2 == 0) and (C % 2 == 0) and (D % 2 == 0)))
